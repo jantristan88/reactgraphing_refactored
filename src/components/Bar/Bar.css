@@ -1,0 +1,29 @@
+.Container-graph{
+    grid-column: 2;
+    grid-row: 3;
+    display:grid;
+    grid-template-columns: repeat(52, 1fr);
+    grid-template-rows: 85% 15%;
+    align-items: end;
+    justify-content: space-around;
+}
+
+
+.bar {
+  color: white;
+  align-items: end;
+  justify-content: space-around;
+}
+
+.bar:nth-child(3n-2){
+  background-color: red;
+}
+
+.bar:nth-child(3n-1){
+  background-color: blue;
+}
+
+.bar:nth-child(3n){
+  background-color: green;
+}
+
